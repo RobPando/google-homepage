@@ -1,0 +1,136 @@
+.googleLogo{
+  position: relative;
+  width: 290px;
+  height: 160px;
+  padding-top: 109px; 
+  margin-left: 220px;
+}
+
+.searchbar{
+  position: relative;
+  width: 486px;
+  height: 38px;
+  font-size: 20px;
+}
+
+div div {
+  display: inline-block;
+
+}
+.topbar {
+  font-size: 13px;
+  font-family: arial;
+  float: right;
+  margin-top: 20px;
+  margin-right: 130px;
+}
+a {
+  text-decoration: none;
+  color: #222;
+  margin-right: 15px;
+  opacity: .75;
+}
+.topleft{
+  float: right;
+  position: relative;
+  margin-right: -187px;
+  
+}
+#box {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  opacity: .55;
+  float: right;
+  position: absolute;
+  margin-left: -55px;
+  margin-top: 20px;
+}
+#line_l {
+  position: absolute;
+  margin-left: 4px;
+  height: 16px;
+  width: 2px;
+  background-color: #FFFFFF;
+}
+#line_r {
+  position: absolute;
+  margin-left: 10px;
+  height: 16px;
+  width: 2px;
+  background-color: #FFFFFF;
+}
+#line_u {
+  position: absolute;
+  margin-top: 4px;
+  height: 2px;
+  width: 16px;
+  background-color: #FFFFFF;
+}
+#line_d {
+  position: absolute;
+  margin-top: 10px;
+  height: 2px;
+  width: 16px;
+  background-color: #FFFFFF;
+}
+.button {
+  position: absolute;
+  width: 69px;
+  height: 30px;
+  background: #4285f4;
+  border-radius: 2px;
+  margin-left: -30px;
+  margin-top: 12px;
+}
+#text{
+  position: absolute;
+  color: white;
+  font-family: arial;
+  font-size: 14px;
+  padding-top: 6px;
+  padding-left: 7px;
+  font-weight: bold;
+  opacity: 1;
+}
+.searchButton{
+  padding-top:18px;
+}
+input[name="submit"]{
+  float: right;
+  background: #f1f1f1;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #757575;
+  margin: 11px 4px;
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+.footer {
+  position: absolute;
+  line-height: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  font-size: 10pt;
+}
+#fright{
+  margin-left:30px;
+}
+#fleft{
+  float: right;
+  margin-right: 30px;
+}
+a:hover {
+  text-decoration: underline;
+}
+input[name="submit"]:hover{
+  color: #000000;
+  border: 1px solid #d1d1d1;
+}
